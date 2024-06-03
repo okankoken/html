@@ -22,6 +22,98 @@
 <body>
     <noscript>your browser doesn't support JS</noscript>
     <!-- Start Codes -->
+    <h1>Intermedia Form and Table</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="uname">Name</label></td>
+                <td>
+                    <input
+                     type="text" 
+                     id="uname"
+                     name="uname"
+                     required
+                     placeholder="Enter your Name"
+                     title="Enter your name"
+                     autofocus
+                     >
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="usurname">Surname</label></td>
+                <td><input
+                    type="text" 
+                    id="usurname"
+                    name="usurname"
+                    required
+                    placeholder="Enter your Surname"
+                    title="Enter your Surname"
+                    ></td>
+            </tr>
+            <tr>
+                <td><label for="uemail">Email</label></td>
+                <td><input
+                    type="email" 
+                    id="uemail"
+                    name="uemail"
+                    required
+                    placeholder="Enter your email"
+                    title="Enter your email"
+                    ></td>
+            </tr>
+            <tr>
+                <td><label for="upassword">Password</td>
+                <td><input
+                    type="password" 
+                    id="password"
+                    name="password"
+                    required
+                    placeholder="Enter your Password"
+                    title="Enter your Password"
+                    minlength="3"
+                    maxlength="15"
+                    pattern="[a-zA-Z0-9]{3,15}"
+                    ></td>
+            </tr>
+
+            <tr>
+                <td><label>Gender</td>
+                <td><input
+                    type="radio" 
+                    id="female"
+                    name="gender"
+                    checked
+                    >Bayan
+
+                    <input
+                    type="radio" 
+                    id="male"
+                    name="gender"
+                    checked
+                    >Bay
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="udate">Date</td>
+                <td><input
+                    type="datetime-local" 
+                    id="udate"
+                    name="udate"
+                    >
+                </td>
+            </tr>
+
+            <tr>
+                <td><label></label></td>
+                <td><input type="reset">
+                    <button type="submit">Send</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
     <hr>
     <h1>Basic Form and Table</h1>
     <hr>
